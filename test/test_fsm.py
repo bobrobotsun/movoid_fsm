@@ -81,7 +81,7 @@ class TestFsm:
         fsm.check_status_now('init')
         try:
             run(True)
-        except:
+        except:  # noqa
             fsm.check_status_now('death')
         else:
             raise AssertionError

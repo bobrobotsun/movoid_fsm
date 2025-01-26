@@ -6,7 +6,7 @@
 # Time          : 2025/1/25 22:07
 # Description   : 
 """
-from typing import List, Union, Dict, Callable
+from typing import List, Union, Dict
 
 from movoid_function import wraps
 
